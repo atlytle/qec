@@ -3,4 +3,6 @@
 Settled on jupytext to help with versioning notebooks.
 It creates a .py mirroring .ipynb w/out metadata etc.
 The sync operation is configured in jupytext.toml,
-and run at `git commit` via .git/hooks/pre-commit (versioned in bck/).
+and run at `git commit` via .git/hooks/pre-commit.
+I hit snags storing .py in ./bck/ and .ipynb in root,
+so storing everything in root for the time being.
