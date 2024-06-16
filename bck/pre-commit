@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+# Create .py versions of notebooks suitable for version control.
+jupytext --sync Hamming_classical.ipynb
+wait -n
+
+git add /bck/Hamming_classical.py

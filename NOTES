@@ -1,0 +1,6 @@
+15 June, 2024
+-------------
+Settled on jupytext to help with versioning notebooks.
+It creates a .py mirroring .ipynb w/out metadata etc.
+The sync operation is configured in jupytext.toml,
+and run at `git commit` via .git/hooks/pre-commit (versioned in bck/).
