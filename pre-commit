@@ -2,6 +2,8 @@
 
 # Create .py versions of notebooks suitable for version control.
 jupytext --sync Hamming_classical.ipynb
+jupytext --sync SVD.ipynb
 wait -n
 
 git add Hamming_classical.py
+git add SVD.py
